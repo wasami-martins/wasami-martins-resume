@@ -45,6 +45,15 @@ export const skills: ISkills[] = [
 export const projects: IProject[] = [
   {
     id: 1,
+    name: "Nevo-clothing",
+    description:
+      "Nevo-clothing is an online store where you can get quality adults clothes without stresss.",
+    image: "/assets/projects/nevo-clothing.png",
+    github: "https://github.com/wasami-martins/nevo-clothing",
+    link: "https://nevo-clothing.vercel.app/",
+  },
+  {
+    id: 2,
     name: "mShop",
     description:
       "mShop is a one-stop shop where you can buy everything you need at afford prices.",
@@ -53,8 +62,8 @@ export const projects: IProject[] = [
     link: "https://mshops.vercel.app/",
   },
   {
-    id: 2,
-    name: "PlatoIO",
+    id: 3,
+    name: "Clean Juice Landing Page",
     description:
       "clean juice is an animated website built using react Js and tailwindCss.",
     image: "/assets/projects/clean-juice.png",
@@ -62,7 +71,7 @@ export const projects: IProject[] = [
     link: "https://clean-juice.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     name: "Crypto hub",
     description:
       "This is a business where you get the latest update on crypto market and prices.",
